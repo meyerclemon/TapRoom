@@ -12,8 +12,8 @@ function Keg(props){
                   color: black;
                 }
               `}</style>
-      <h3>{props.name } - ${props.cost}</h3>
-      <p><em>{props.type} | {props.brand}</em></p>
+      <h3>{props.type} | {props.name }</h3>
+      <p><em>{props.brand} ${props.cost} {props.pint}</em></p>
       <hr/>
     </div>
   )

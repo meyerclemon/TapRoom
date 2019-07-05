@@ -6,7 +6,7 @@ function Header(){
     <div>
       <style jsx>{`
                 div {
-                  background-color: lightblue;
+                  background-color: goldenrod;
                   text-align: center;
                   font-family: cursive;
                 }
