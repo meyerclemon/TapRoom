@@ -7,163 +7,176 @@ var masterKegList = [
     brand: 'Seattle Cider',
     type: 'Cider',
     name: 'SEATTLE CIDER DRY',
-    
+    cost: 
   },
   {
     brand: 'Seattle Cider',
     type: 'Cider',
     name: 'SEATTLE CIDER SEMI-SWEET',
-
+    cost:
   },
   {
-    brand: 'Rainier',
+    brand: 'Rainier Beer',
     type: 'Lager',
-    name: 'RAINIER'
-
+    name: 'RAINIER',
+    cost:
   },
   {
     brand: 'The Pike Brewing Company',
     type: 'IPA',
-    name: 'PIKE IPA'
-
+    name: 'PIKE IPA',
+    cost:
    },
    {
     brand: 'The Pike Brewing Company',
     type: 'Ale',
-    name: 'PIKE HIVE FIVE HOPPED HONEY'
-
+    name: 'PIKE HIVE FIVE HOPPED HONEY',
+    cost:
   },
   {
     brand: 'Fremont Brewing Company',
     type: 'Ale',
-    name: 'FREMONT SUMMER ALE'
-
+    name: 'FREMONT SUMMER ALE',
+    cost:
    },
    {
     brand: 'Fremont Brewing Company',
     type: 'IPA',
-    name: 'FREMONT IPA'
-
+    name: 'FREMONT IPA',
+    cost:
    },
    {
     brand: 'RedHook Brewery',
     type: 'ESB',
-    name: 'REDHOOK ESB'
-
+    name: 'REDHOOK ESB',
+    cost:
   },
   {
     brand: 'Mac & Jacks Brewing Company',
     type: 'ale',
-    name: 'MAC & JACK’S AFRICAN AMBER'
-
+    name: 'MAC & JACK’S AFRICAN AMBER',
+    cost:
   },
   {
     brand: 'Mac & Jacks Brewing Company',
     type: 'porter',
-    name: 'MAC & JACK’S BLACKCAT'
-
+    name: 'MAC & JACK’S BLACKCAT',
+    cost:
   },
   {
     brand: 'Alaskan Brewing Co',
     type: 'ale',
-    name: 'ALASKAN AMBER'
+    name: 'ALASKAN AMBER',
+    cost:
    },
    {
     brand: 'Alaskan Brewing Co',
     type: 'pale ale',
-    name: 'ALASKAN FREERIDE APA'
+    name: 'ALASKAN FREERIDE APA',
+    cost:
   },
   {
     brand: 'Georgetown Brewing Company',
     type: 'pale ale',
-    name: 'GEORGETOWN MANNY\'S'
+    name: 'GEORGETOWN MANNY\'S',
+    cost:
    },
    {
     brand: 'Georgetown Brewing Company',
     type: 'pilsner',
-    name: 'GEORGETOWN ROGER’S'
+    name: 'GEORGETOWN ROGER’S',
+    cost:
    },
-
    {
     brand: 'Georgetown Brewing Company',
     type: 'IPA',
     name: 'GEORGETOWN LUCILLE',
-    
+    cost:
   },
   {
     brand: 'Boneyard Beer',
     type: 'pale ale',
     name: 'BONEYARD BONE-A-FIDE',
-
+    cost:
   },
   {
-    brand: 'Rainier',
-    type: 'Lager',
-    name: 'RAINIER'
-
-  },
-  {
-    brand: 'The Pike Brewing Company',
+    brand: 'Boneyard Beer',
     type: 'IPA',
-    name: 'PIKE IPA'
-
-   },
-   {
-    brand: 'The Pike Brewing Company',
-    type: 'Ale',
-    name: 'PIKE HIVE FIVE HOPPED HONEY'
-
+    name: 'BONEYARD RPM',
+    cost:
   },
   {
-    brand: 'Fremont Brewing Company',
-    type: 'Ale',
-    name: 'FREMONT SUMMER ALE'
-
+    brand: 'Snoqualmie Falls Brewery',
+    type: 'lager',
+    name: 'SNOQUALMIE GHOSTWOOD KOLSCH',
+    cost:
    },
    {
-    brand: 'Fremont Brewing Company',
-    type: 'IPA',
-    name: 'FREMONT IPA'
-
-   },
-   {
-    brand: 'RedHook',
-    type: 'ESB',
-    name: 'REDHOOK ESB'
-
-  },
-  {
-    brand: 'Mac & Jacks',
-    type: 'ale',
-    name: 'MAC & JACK’S AFRICAN AMBER'
-
-  },
-  {
-    brand: 'Mac & Jacks',
+    brand: 'Snoqualmie Falls Brewery',
     type: 'porter',
-    name: 'MAC & JACK’S BLACKCAT'
+    name: 'SNOQUALMIE STEAM TRAIN'
 
   },
   {
-    brand: 'Alaskan Brewing Company',
-    type: 'ale',
-    name: 'ALASKAN AMBER'
+    brand: 'Snoqualmie Falls Brewery',
+    type: 'IPA',
+    name: 'SNOQUALMIE FALLS WILDCAT',
+    cost:
    },
    {
-    brand: 'Alaskan Brewing Company',
-    type: 'pale ale',
-    name: 'ALASKAN FREERIDE APA'
+    brand: 'Elysian Brewing Company',
+    type: 'ale',
+    name: 'ELYSIAN MEN’S ROOM RED'
+    cost:
+   },
+   {
+    brand: 'Elysian Brewing Company',
+    type: 'stout',
+    name: 'ELYSIAN DRAGONS TOOTH',
+    cost:
   },
   {
-    brand: 'Georgetown Brewery',
-    type: 'pale ale',
-    name: 'GEORGETOWN MANNY\'S'
+    brand: 'Bad Jimmy\'s Brewing Co.',
+    type: 'lager',
+    name: 'BAD JIMMY\'S BAD LIGHT',
+    cost:
+  },
+  {
+    brand: 'Bad Jimmy\'s Brewing Co.',
+    type: 'porter',
+    name: 'BAD JIMMY\'S COCOA VANILLA',
+    cost:
+  },
+  {
+    brand: 'Maritime Pacific Brewing Company',
+    type: 'ale',
+    name: 'MARITIME FLAGSHIP RED',
+    cost:
    },
    {
-    brand: 'Georgetown Brewery',
+    brand: 'Maritime Pacific Brewing Company',
+    type: 'lager',
+    name: 'MARITIME DRY HOPPED OLD SEATTLE',
+    cost:
+  },
+  {
+    brand: 'Maritime Pacific Brewing Company',
     type: 'pilsner',
-    name: 'GEORGETOWN ROGER’S'
-   }
+    name: 'MARITIME PACIFIC PORTAGE BAY',
+    cost:
+   },
+   {
+    brand: 'Woodinville Ciderworks',
+    type: 'cider',
+    name: 'WOODINVILLE CIDERWORKS PEACH GINGER CIDER',
+    cost:
+   },
+   {
+   brand: 'Finnriver Farm & Cidery',
+   type: 'cider',
+   name: 'FINN RIVER BLACK CURRANT',
+   cost:
+  }
   ]
 
 function KegList(){
