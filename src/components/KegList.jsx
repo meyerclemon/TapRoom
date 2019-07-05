@@ -7,115 +7,115 @@ var masterKegList = [
     brand: 'Seattle Cider',
     type: 'Cider',
     name: 'SEATTLE CIDER DRY',
-    cost: 
+    cost: 'sixtel: 129'
   },
   {
     brand: 'Seattle Cider',
     type: 'Cider',
     name: 'SEATTLE CIDER SEMI-SWEET',
-    cost:
+    cost: 'sixtel: 129'
   },
   {
     brand: 'Rainier Beer',
     type: 'Lager',
     name: 'RAINIER',
-    cost:
+    cost: '139'
   },
   {
     brand: 'The Pike Brewing Company',
     type: 'IPA',
     name: 'PIKE IPA',
-    cost:
+    cost:'150'
    },
    {
     brand: 'The Pike Brewing Company',
     type: 'Ale',
     name: 'PIKE HIVE FIVE HOPPED HONEY',
-    cost:
+    cost:'200'
   },
   {
     brand: 'Fremont Brewing Company',
     type: 'Ale',
     name: 'FREMONT SUMMER ALE',
-    cost:
+    cost: '310'
    },
    {
     brand: 'Fremont Brewing Company',
     type: 'IPA',
-    name: 'FREMONT IPA',
-    cost:
+    name: 'FREMONT LUSH IPA',
+    cost: '350'
    },
    {
     brand: 'RedHook Brewery',
     type: 'ESB',
     name: 'REDHOOK ESB',
-    cost:
+    cost: '219'
   },
   {
     brand: 'Mac & Jacks Brewing Company',
     type: 'ale',
     name: 'MAC & JACK’S AFRICAN AMBER',
-    cost:
+    cost: '210'
   },
   {
     brand: 'Mac & Jacks Brewing Company',
     type: 'porter',
     name: 'MAC & JACK’S BLACKCAT',
-    cost:
+    cost: '300'
   },
   {
     brand: 'Alaskan Brewing Co',
     type: 'ale',
     name: 'ALASKAN AMBER',
-    cost:
+    cost: '219'
    },
    {
     brand: 'Alaskan Brewing Co',
     type: 'pale ale',
     name: 'ALASKAN FREERIDE APA',
-    cost:
+    cost: '229'
   },
   {
     brand: 'Georgetown Brewing Company',
     type: 'pale ale',
     name: 'GEORGETOWN MANNY\'S',
-    cost:
+    cost: 'sixtel: 99'
    },
    {
     brand: 'Georgetown Brewing Company',
     type: 'pilsner',
     name: 'GEORGETOWN ROGER’S',
-    cost:
+    cost: '110'
    },
    {
     brand: 'Georgetown Brewing Company',
     type: 'IPA',
     name: 'GEORGETOWN LUCILLE',
-    cost:
+    cost: 'sixtel:120'
   },
   {
     brand: 'Boneyard Beer',
     type: 'pale ale',
     name: 'BONEYARD BONE-A-FIDE',
-    cost:
+    cost: '300'
   },
   {
     brand: 'Boneyard Beer',
     type: 'IPA',
     name: 'BONEYARD RPM',
-    cost:
+    cost: '400'
   },
   {
-    brand: 'Snoqualmie Falls Brewery',
-    type: 'lager',
-    name: 'SNOQUALMIE GHOSTWOOD KOLSCH',
-    cost:
+    brand: 'Pabst Blue Ribbon',
+    type: 'ale',
+    name: 'PBR',
+    cost: '139'
    },
    {
-    brand: 'Snoqualmie Falls Brewery',
-    type: 'porter',
-    name: 'SNOQUALMIE STEAM TRAIN'
-
+    brand: 'Stone Brewery',
+    type: 'IPA',
+    name: 'STONE IPA',
+    cost: '219'
   },
   {
     brand: 'Snoqualmie Falls Brewery',
@@ -126,32 +126,32 @@ var masterKegList = [
    {
     brand: 'Elysian Brewing Company',
     type: 'ale',
-    name: 'ELYSIAN MEN’S ROOM RED'
-    cost:
+    name: 'ELYSIAN MEN’S ROOM RED',
+    cost: 'sixtel: 109'
    },
    {
     brand: 'Elysian Brewing Company',
     type: 'stout',
     name: 'ELYSIAN DRAGONS TOOTH',
-    cost:
+    cost: 'sixtel: 139'
   },
   {
-    brand: 'Bad Jimmy\'s Brewing Co.',
-    type: 'lager',
-    name: 'BAD JIMMY\'S BAD LIGHT',
-    cost:
+    brand: 'Elysian Brewing Company',
+    type: 'IPA',
+    name: 'ELYSIAN IPA',
+    cost: 'sixtel: 109'
   },
   {
-    brand: 'Bad Jimmy\'s Brewing Co.',
-    type: 'porter',
-    name: 'BAD JIMMY\'S COCOA VANILLA',
-    cost:
-  },
-  {
-    brand: 'Maritime Pacific Brewing Company',
+    brand: 'Dos Equis',
     type: 'ale',
-    name: 'MARITIME FLAGSHIP RED',
-    cost:
+    name: 'DOS EQUIS AMBER ',
+    cost: '209'
+  },
+  {
+    brand: 'Full Sail Brewery',
+    type: 'ale',
+    name: 'FULL SAIL AMBER',
+    cost: '219'
    },
    {
     brand: 'Maritime Pacific Brewing Company',
@@ -160,22 +160,22 @@ var masterKegList = [
     cost:
   },
   {
-    brand: 'Maritime Pacific Brewing Company',
-    type: 'pilsner',
-    name: 'MARITIME PACIFIC PORTAGE BAY',
-    cost:
+    brand: 'The Boston Brewery | Samuel Adams',
+    type: 'ale',
+    name: 'SAM ADAMS OKTOBERFEST',
+    cost: '219'
    },
    {
-    brand: 'Woodinville Ciderworks',
+    brand: 'Spire Cider',
     type: 'cider',
-    name: 'WOODINVILLE CIDERWORKS PEACH GINGER CIDER',
-    cost:
+    name: 'SPIRE CIDER',
+    cost: '219'
    },
    {
-   brand: 'Finnriver Farm & Cidery',
+   brand: 'Anthem Cider',
    type: 'cider',
-   name: 'FINN RIVER BLACK CURRANT',
-   cost:
+   name: 'ANTHEM CIDER',
+   cost: '229'
   }
   ]
 
