@@ -99,140 +99,204 @@ var masterKegList = [
     abv: '6.0'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
+    brewery: 'Dwinell Country Ales',
+    name: 'Horsethief Farmhouse Pale',
+    pint: '7',
+    growler: '21',
     origin: 'WA',
-    abv: '4.8'
+    abv: '7.1'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
+    brewery: 'Fremont',
+    name: 'Brother IIPA	',
+    pint: '8.50',
+    growler: '26',
     origin: 'WA',
-    abv: '4.8'
+    abv: '8.5'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
-    origin: 'WA',
-    abv: '4.8'
+    brewery: 'Gigantic',
+    name: 'Most Most Premium Stout',
+    pint: '6.50',
+    growler: 'N/A',
+    origin: 'OR',
+    abv: '10.0'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
-    origin: 'WA',
-    abv: '4.8'
+    brewery: 'Lost Abbey',
+    name: 'Judgment Day Quad',
+    pint: '7.50',
+    growler: '23',
+    origin: 'CA',
+    abv: '10.2'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
+    brewery: 'White Bluffs',
+    name: 'Red Altbier',
+    pint: '7',
+    growler: '21',
     origin: 'WA',
-    abv: '4.8'
+    abv: '6.4'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
+    brewery: 'Cloudburst',
+    name: 'Art Deco Stuff IIPA',
+    pint: '6.5',
+    growler: '20',
     origin: 'WA',
-    abv: '4.8'
+    abv: '8.3'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
+    brewery: 'Wander',
+    name: 'Earlybird BA Breakfast Stout',
+    pint: '8',
+    growler: '48',
     origin: 'WA',
-    abv: '4.8'
+    abv: '9.6'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
-    origin: 'WA',
-    abv: '4.8'
+    brewery: 'Boulevard',
+    name: 'Tank 7 Saison',
+    pint: '8',
+    growler: '24',
+    origin: 'MO',
+    abv: '8.0'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
+    brewery: 'Cloudburst',
+    name: 'In Those Jeans IPA',
+    pint: '5.5',
+    growler: '17',
     origin: 'WA',
-    abv: '4.8'
+    abv: '7.0'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
-    origin: 'WA',
-    abv: '4.8'
+    brewery: 'Upright',
+    name: 'Heart\'s Beat Cherry Sour',
+    pint: '7.5',
+    growler: '23',
+    origin: 'OR',
+    abv: '6.8'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
+    brewery: 'Skookum',
+    name: 'Next New IPA',
+    pint: '6',
+    growler: '18',
     origin: 'WA',
-    abv: '4.8'
+    abv: '7.1'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
-    origin: 'WA',
-    abv: '4.8'
+    brewery: 'Founders',
+    name: 'Blushing Monk Raspberry Belgian',
+    pint: '5.5',
+    growler: '33',
+    origin: 'MI',
+    abv: '9.2'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
+    brewery: 'Matchless',
+    name: 'Cherry Matchless Bar Stout',
+    pint: '7',
+    growler: '41',
     origin: 'WA',
-    abv: '4.8'
+    abv: '11.2'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
+    brewery: 'Bale Breaker',
+    name: 'Mango IPA',
+    pint: '7.5',
+    growler: '23',
     origin: 'WA',
-    abv: '4.8'
+    abv: '5.9'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
-    origin: 'WA',
-    abv: '4.8'
+    brewery: 'Wayfinder	',
+    name: 'Songs of Courtship Kellerbier',
+    pint: '7',
+    growler: '21',
+    origin: 'OR',
+    abv: '5.5'
   },
   {
-    brewery: 'Stoup',
-    name: 'Kristallweizen',
-    pint: '5',
-    growler: '15',
+    brewery: 'Cloudburst',
+    name: 'This Is My Friday Keller Pilsner',
+    pint: '5.5',
+    growler: '17',
     origin: 'WA',
-    abv: '4.8'
+    abv: '5.3'
   },
   {
-    brewery: 'Stoup',
+    brewery: 'Matchless',
+    name: 'Sunbreak Summer IPA',
+    pint: '5.5',
+    growler: '17',
+    origin: 'WA',
+    abv: '6.3'
+  },
+  {
+    brewery: 'Holy Mountain',
     name: 'Kristallweizen',
+    pint: '6.5',
+    growler: 'N/A',
+    origin: 'WA',
+    abv: '5.5'
+  },
+  {
+    brewery: 'Mazama',
+    name: 'Rye BA Baltic Porter',
+    pint: '7',
+    growler: '42',
+    origin: 'OR',
+    abv: '9.0'
+  },
+  {
+    brewery: 'Schöfferhofer',
+    name: 'Grapefruit Hefeweizen Radler',
+    pint: '5',
+    growler: '15',
+    origin: 'GER',
+    abv: '2.5'
+  },
+  {
+    brewery: 'Modern Times',
+    name: 'Gravity Hammer Berliner',
+    pint: '6.5',
+    growler: '39',
+    origin: 'CA',
+    abv: '10.0'
+  },
+  {
+    brewery: 'Machine House',
+    name: 'KristalSummer Alelweizen',
+    pint: '6.5',
+    growler: '20',
+    origin: 'WA',
+    abv: '4.6'
+  },
+  {
+    brewery: 'Georgetown',
+    name: 'Johnny Utah Citra Pale Ale',
+    pint: '6',
+    growler: '18',
+    origin: 'WA',
+    abv: '5.6'
+  },
+  {
+    brewery: 'Oskar Blues',
+    name: 'Old Chub Scotch Ale',
+    pint: '5.5',
+    growler: '17',
+    origin: 'CO',
+    abv: '8.0'
+  },
+  {
+    brewery: 'E9',
+    name: 'Realize, Real Lies IPA',
     pint: '5',
     growler: '15',
     origin: 'WA',
-    abv: '4.8'
+    abv: '6.0'
   }
 ]
 
@@ -240,13 +304,22 @@ function KegList(){
 
   return (
     <div>
-      background-color: lightblue;
+      <style jsx>{`
+                h3{
+                  font-family: sans-serif;
+                  
+                }
+          `}</style>
+             <h3>Brewery | Name | Pint | Growler | Origin | Alcohol By Volume</h3>
+                
       <hr/>
       {masterKegList.map((keg, index) =>
         <Keg brewery={keg.brewery}
-          type={keg.type}
           name={keg.name}
+          pint={keg.pint}
           growler={keg.growler}
+          origin={keg.origin}
+          abv={keg.abv}
           key={index}/>
       )}
       
