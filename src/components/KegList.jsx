@@ -310,7 +310,7 @@ function KegList(){
                   
                 }
           `}</style>
-             <h3>Brewery | Name | Pint | Growler | Origin | Alcohol By Volume</h3>
+      <h3>Brewery | Name | Pint | Growler | Origin | Alcohol By Volume</h3>
                 
       <hr/>
       {masterKegList.map((keg, index) =>

@@ -12,7 +12,7 @@ function Keg(props){
                   color: black;
                 }
               `}</style>
-      <h4>{props.brewery} | {props.name } |<em> ${props.pint}</em> | ${props.growler} | {props.abv}</h4>
+      <h4>{props.brewery} | {props.name } |<em> ${props.pint}</em> | {props.growler} | {props.abv}</h4>
       <hr/>
     </div>
   )
