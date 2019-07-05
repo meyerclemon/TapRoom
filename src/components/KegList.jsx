@@ -5,19 +5,19 @@ export default KegList
 var masterKegList = [
   {
     brand: 'Seattle Cider',
-    type: 'Cider',
+    type: 'cider',
     name: 'SEATTLE CIDER DRY',
-    cost: 'sixtel: 129'
+    cost: '129 /sixtel',
   },
   {
     brand: 'Seattle Cider',
-    type: 'Cider',
+    type: 'cider',
     name: 'SEATTLE CIDER SEMI-SWEET',
-    cost: 'sixtel: 129'
+    cost: '129 /sixtel'
   },
   {
     brand: 'Rainier Beer',
-    type: 'Lager',
+    type: 'lager',
     name: 'RAINIER',
     cost: '139'
   },
@@ -26,28 +26,28 @@ var masterKegList = [
     type: 'IPA',
     name: 'PIKE IPA',
     cost:'150'
-   },
-   {
+  },
+  {
     brand: 'The Pike Brewing Company',
-    type: 'Ale',
+    type: 'ale',
     name: 'PIKE HIVE FIVE HOPPED HONEY',
     cost:'200'
   },
   {
     brand: 'Fremont Brewing Company',
-    type: 'Ale',
+    type: 'ale',
     name: 'FREMONT SUMMER ALE',
     cost: '310'
-   },
-   {
+  },
+  {
     brand: 'Fremont Brewing Company',
     type: 'IPA',
     name: 'FREMONT LUSH IPA',
     cost: '350'
-   },
-   {
+  },
+  {
     brand: 'RedHook Brewery',
-    type: 'ESB',
+    type: 'pale ale',
     name: 'REDHOOK ESB',
     cost: '219'
   },
@@ -68,8 +68,8 @@ var masterKegList = [
     type: 'ale',
     name: 'ALASKAN AMBER',
     cost: '219'
-   },
-   {
+  },
+  {
     brand: 'Alaskan Brewing Co',
     type: 'pale ale',
     name: 'ALASKAN FREERIDE APA',
@@ -79,19 +79,19 @@ var masterKegList = [
     brand: 'Georgetown Brewing Company',
     type: 'pale ale',
     name: 'GEORGETOWN MANNY\'S',
-    cost: 'sixtel: 99'
-   },
-   {
+    cost: '99 /sixtel'
+  },
+  {
     brand: 'Georgetown Brewing Company',
     type: 'pilsner',
     name: 'GEORGETOWN ROGER’S',
     cost: '110'
-   },
-   {
+  },
+  {
     brand: 'Georgetown Brewing Company',
     type: 'IPA',
     name: 'GEORGETOWN LUCILLE',
-    cost: 'sixtel:120'
+    cost: '120 /sixtel'
   },
   {
     brand: 'Boneyard Beer',
@@ -110,36 +110,36 @@ var masterKegList = [
     type: 'ale',
     name: 'PBR',
     cost: '139'
-   },
-   {
+  },
+  {
     brand: 'Stone Brewery',
     type: 'IPA',
     name: 'STONE IPA',
     cost: '219'
   },
   {
-    brand: 'Snoqualmie Falls Brewery',
+    brand: 'Silver City Brewery ',
     type: 'IPA',
-    name: 'SNOQUALMIE FALLS WILDCAT',
-    cost:
-   },
-   {
+    name: 'TROPIC HAZE IPA',
+    cost: '119 /sixtel'
+  },
+  {
     brand: 'Elysian Brewing Company',
     type: 'ale',
     name: 'ELYSIAN MEN’S ROOM RED',
-    cost: 'sixtel: 109'
-   },
-   {
+    cost: '109 /sixtel'
+  },
+  {
     brand: 'Elysian Brewing Company',
     type: 'stout',
     name: 'ELYSIAN DRAGONS TOOTH',
-    cost: 'sixtel: 139'
+    cost: '139 /sixtel'
   },
   {
     brand: 'Elysian Brewing Company',
     type: 'IPA',
     name: 'ELYSIAN IPA',
-    cost: 'sixtel: 109'
+    cost: '109 /sixtel'
   },
   {
     brand: 'Dos Equis',
@@ -152,32 +152,32 @@ var masterKegList = [
     type: 'ale',
     name: 'FULL SAIL AMBER',
     cost: '219'
-   },
-   {
-    brand: 'Maritime Pacific Brewing Company',
+  },
+  {
+    brand: 'Hoegaarden',
     type: 'lager',
-    name: 'MARITIME DRY HOPPED OLD SEATTLE',
-    cost:
+    name: 'HOEGAARDEN',
+    cost: '219'
   },
   {
     brand: 'The Boston Brewery | Samuel Adams',
     type: 'ale',
     name: 'SAM ADAMS OKTOBERFEST',
     cost: '219'
-   },
-   {
+  },
+  {
     brand: 'Spire Cider',
     type: 'cider',
     name: 'SPIRE CIDER',
     cost: '219'
-   },
-   {
-   brand: 'Anthem Cider',
-   type: 'cider',
-   name: 'ANTHEM CIDER',
-   cost: '229'
+  },
+  {
+    brand: 'Anthem Cider',
+    type: 'cider',
+    name: 'ANTHEM CIDER',
+    cost: '229'
   }
-  ]
+]
 
 function KegList(){
 
@@ -185,10 +185,12 @@ function KegList(){
     <div>
       <hr/>
       {masterKegList.map((keg, index) =>
-        <Keg names={keg.names}
-          location={keg.location}
-          issue={keg.issue}
+        <Keg brand={keg.brand}
+          type={keg.type}
+          name={keg.name}
+          cost={keg.cost}
           key={index}/>
       )}
+      
     </div>
   )}

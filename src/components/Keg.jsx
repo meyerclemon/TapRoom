@@ -6,23 +6,24 @@ function Keg(props){
     <div>
       <style jsx>{`
                 div {
-                  background-color: red;
+                  background-color: lightyellow;
                 }
                 h3 {
-                  color: blue;
+                  color: black;
                 }
               `}</style>
-      <h3>{props.location} - {props.names}</h3>
-      <p><em>{props.issue}</em></p>
+      <h3>{props.name } - ${props.cost}</h3>
+      <p><em>{props.type} | {props.brand}</em></p>
       <hr/>
     </div>
   )
 }
 
 Keg.propTypes = {
-  names: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired,
-  issue: PropTypes.string
+  brand: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  name: PropTypes.string,
+  cost: PropTypes.string
 }
 
 export default Keg
