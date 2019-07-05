@@ -12,18 +12,19 @@ function Keg(props){
                   color: black;
                 }
               `}</style>
-      <h3>{props.type} | {props.name }</h3>
-      <p><em>{props.brand} ${props.cost} {props.pint}</em></p>
+      <h3>{props.brewery} | {props.name }</h3>
+      <p><em>{props.pint} ${props.growler} {props.abv}</em></p>
       <hr/>
     </div>
   )
 }
 
 Keg.propTypes = {
-  brand: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
-  name: PropTypes.string,
-  cost: PropTypes.string
+  brewery: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  pint: PropTypes.string,
+  growler: PropTypes.string,
+  abv: PropTypes.string
 }
 
 export default Keg

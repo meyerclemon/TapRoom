@@ -4,207 +4,235 @@ export default KegList
 
 var masterKegList = [
   {
-    brand: 'Seattle Cider',
-    type: 'cider',
-    name: 'SEATTLE CIDER DRY',
-    cost: '129 /sixtel',
-    pint: ''
+    brewery: 'Left Hand',
+    name: 'Milk Stout (Nitro)',
+    pint: '9',
+    growler: 'N/A',
+    origin: 'CO',
+    abv: '6.0'
   },
   {
-    brand: 'Seattle Cider',
-    type: 'cider',
-    name: 'SEATTLE CIDER SEMI-SWEET',
-    cost: '129 /sixtel',
-    pint: ''
+    brewery: 'Modern Times',
+    name: 'Black House w/ Coconut/Cocoa (Nitro)',
+    pint: '6.5',
+    growler: 'N/A',
+    origin: 'CA',
+    abv: '5.8'
   },
   {
-    brand: 'Rainier Beer',
-    type: 'lager',
-    name: 'RAINIER',
-    cost: '139',
-    pint: ''
+    brewery: 'Ground Breaker',
+    name: 'IPA #5 (Gluten Free)',
+    pint: '8.5',
+    growler: '26',
+    origin: 'OR',
+    abv: '5.6'
   },
   {
-    brand: 'The Pike Brewing Company',
-    type: 'IPA',
-    name: 'PIKE IPA',
-    cost:'150',
-    pint: ''
+    brewery: '2 Towns',
+    name: 'Pacific Pineapple Cider',
+    pint: '5.50',
+    growler: '17',
+    origin: 'OR',
+    abv: '5.0'
   },
   {
-    brand: 'The Pike Brewing Company',
-    type: 'ale',
-    name: 'PIKE HIVE FIVE HOPPED HONEY',
-    cost:'200',
-    pint: ''
+    brewery: 'Whitewood',
+    name: 'Lil\' Rosybloom Crabapple Cider',
+    pint: '6.5',
+    growler: '38',
+    origin: 'WA',
+    abv: '10.7'
   },
   {
-    brand: 'Fremont Brewing Company',
-    type: 'ale',
-    name: 'FREMONT SUMMER ALE',
-    cost: '310',
-    pint: ''
+    brewery: 'Reverend Nat\'s',
+    name: 'Sacrilege Sour Cherry Cider',
+    pint: '5.5',
+    growler: '17',
+    origin: 'OR',
+    abv: '6.5'
   },
   {
-    brand: 'Fremont Brewing Company',
-    type: 'IPA',
-    name: 'FREMONT LUSH IPA',
-    cost: '350',
-    pint: ''
+    brewery: 'Schilling',
+    name: 'London Dry Cider',
+    pint: '6.5',
+    growler: '20',
+    origin: 'WA',
+    abv: '6.5'
   },
   {
-    brand: 'RedHook Brewery',
-    type: 'pale ale',
-    name: 'REDHOOK ESB',
-    cost: '219',
-    pint: ''
+    brewery: 'Finnriver',
+    name: 'Oaken Haben Cider',
+    pint: '10.50',
+    growler: '32',
+    origin: 'WA',
+    abv: '6.5'
   },
   {
-    brand: 'Mac & Jacks Brewing Company',
-    type: 'ale',
-    name: 'MAC & JACK’S AFRICAN AMBER',
-    cost: '210',
-    pint: ''
+    brewery: 'Seattle Mead Company',
+    name: 'Double Berry Tart Mead',
+    pint: '9',
+    growler: 'N/A',
+    origin: 'WA',
+    abv: '9.5'
   },
   {
-    brand: 'Mac & Jacks Brewing Company',
-    type: 'porter',
-    name: 'MAC & JACK’S BLACKCAT',
-    cost: '300',
-    pint: ''
+    brewery: 'Mirage/Chuck\'s',
+    name: 'I Know Kung Fu Hazy IPA',
+    pint: '7',
+    growler: '21',
+    origin: 'WA',
+    abv: '6.2'
   },
   {
-    brand: 'Alaskan Brewing Co',
-    type: 'ale',
-    name: 'ALASKAN AMBER',
-    cost: '219',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Alaskan Brewing Co',
-    type: 'pale ale',
-    name: 'ALASKAN FREERIDE APA',
-    cost: '229',
-    pint: ''
+    brewery: 'Standard	',
+    name: 'Last Beer on the Left IPA',
+    pint: '5.5',
+    growler: '17',
+    abv: '6.0'
   },
   {
-    brand: 'Georgetown Brewing Company',
-    type: 'pale ale',
-    name: 'GEORGETOWN MANNY\'S',
-    cost: '99 /sixtel',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Georgetown Brewing Company',
-    type: 'pilsner',
-    name: 'GEORGETOWN ROGER’S',
-    cost: '110',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Georgetown Brewing Company',
-    type: 'IPA',
-    name: 'GEORGETOWN LUCILLE',
-    cost: '120 /sixtel',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Boneyard Beer',
-    type: 'pale ale',
-    name: 'BONEYARD BONE-A-FIDE',
-    cost: '300',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Boneyard Beer',
-    type: 'IPA',
-    name: 'BONEYARD RPM',
-    cost: '400',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Pabst Blue Ribbon',
-    type: 'ale',
-    name: 'PBR',
-    cost: '139',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Stone Brewery',
-    type: 'IPA',
-    name: 'STONE IPA',
-    cost: '219',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Silver City Brewery ',
-    type: 'IPA',
-    name: 'TROPIC HAZE IPA',
-    cost: '119 /sixtel',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Elysian Brewing Company',
-    type: 'ale',
-    name: 'ELYSIAN MEN’S ROOM RED',
-    cost: '109 /sixtel',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Elysian Brewing Company',
-    type: 'stout',
-    name: 'ELYSIAN DRAGONS TOOTH',
-    cost: '139 /sixtel',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Elysian Brewing Company',
-    type: 'IPA',
-    name: 'ELYSIAN IPA',
-    cost: '109 /sixtel',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Dos Equis',
-    type: 'ale',
-    name: 'DOS EQUIS AMBER ',
-    cost: '209',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Full Sail Brewery',
-    type: 'ale',
-    name: 'FULL SAIL AMBER',
-    cost: '219',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Hoegaarden',
-    type: 'lager',
-    name: 'HOEGAARDEN',
-    cost: '219',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'The Boston Brewery | Samuel Adams',
-    type: 'ale',
-    name: 'SAM ADAMS OKTOBERFEST',
-    cost: '219',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Spire Cider',
-    type: 'cider',
-    name: 'SPIRE CIDER',
-    cost: '219',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   },
   {
-    brand: 'Anthem Cider',
-    type: 'cider',
-    name: 'ANTHEM CIDER',
-    cost: '229',
-    pint: ''
+    brewery: 'Stoup',
+    name: 'Kristallweizen',
+    pint: '5',
+    growler: '15',
+    origin: 'WA',
+    abv: '4.8'
   }
 ]
 
@@ -215,10 +243,10 @@ function KegList(){
       background-color: lightblue;
       <hr/>
       {masterKegList.map((keg, index) =>
-        <Keg brand={keg.brand}
+        <Keg brewery={keg.brewery}
           type={keg.type}
           name={keg.name}
-          cost={keg.cost}
+          growler={keg.growler}
           key={index}/>
       )}
       
