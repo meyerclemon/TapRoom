@@ -6,10 +6,12 @@ function Header(){
     <div>
       <style jsx>{`
                 div {
-                  background-color: gray;
+                  background-color: lightblue;
+                  text-align: center;
+                  font-family: cursive;
                 }
               `}</style>
-      <h1>Help Queue!</h1>
+      <h1>Le Bartender</h1>
       <hr/>
     </div>
   )
