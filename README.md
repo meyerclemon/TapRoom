@@ -1,4 +1,5 @@
 # React Tap Room
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 #### By **Maya Frame** 6/7/2019
 
@@ -7,7 +8,7 @@
 * As a patron, I want to have kegs prices to be color-coded for easy readability. Perhaps based on their price (greater or less than $5 per pint, perhaps) or the particular style of beer or kombucha.
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
