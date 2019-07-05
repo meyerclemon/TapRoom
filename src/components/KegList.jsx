@@ -4,21 +4,167 @@ export default KegList
 
 var masterKegList = [
   {
-    names: 'Thato and Haley',
-    location: '3A',
-    issue: 'Firebase won\'t save record. Halp.'
+    brand: 'Seattle Cider',
+    type: 'Cider',
+    name: 'SEATTLE CIDER DRY',
+    
   },
   {
-    names: 'Sleater and Kinney',
-    location: '4B',
-    issue: 'Fox image not displaying on page, can only see duck?'
+    brand: 'Seattle Cider',
+    type: 'Cider',
+    name: 'SEATTLE CIDER SEMI-SWEET',
+
   },
   {
-    names: 'Imani & Jacob',
-    location: '9F',
-    issue: 'Donkey picture not displaying on hover in Zoology app. :('
-  }
-]
+    brand: 'Rainier',
+    type: 'Lager',
+    name: 'RAINIER'
+
+  },
+  {
+    brand: 'The Pike Brewing Company',
+    type: 'IPA',
+    name: 'PIKE IPA'
+
+   },
+   {
+    brand: 'The Pike Brewing Company',
+    type: 'Ale',
+    name: 'PIKE HIVE FIVE HOPPED HONEY'
+
+  },
+  {
+    brand: 'Fremont Brewing Company',
+    type: 'Ale',
+    name: 'FREMONT SUMMER ALE'
+
+   },
+   {
+    brand: 'Fremont Brewing Company',
+    type: 'IPA',
+    name: 'FREMONT IPA'
+
+   },
+   {
+    brand: 'RedHook Brewery',
+    type: 'ESB',
+    name: 'REDHOOK ESB'
+
+  },
+  {
+    brand: 'Mac & Jacks Brewing Company',
+    type: 'ale',
+    name: 'MAC & JACK’S AFRICAN AMBER'
+
+  },
+  {
+    brand: 'Mac & Jacks Brewing Company',
+    type: 'porter',
+    name: 'MAC & JACK’S BLACKCAT'
+
+  },
+  {
+    brand: 'Alaskan Brewing Co',
+    type: 'ale',
+    name: 'ALASKAN AMBER'
+   },
+   {
+    brand: 'Alaskan Brewing Co',
+    type: 'pale ale',
+    name: 'ALASKAN FREERIDE APA'
+  },
+  {
+    brand: 'Georgetown Brewing Company',
+    type: 'pale ale',
+    name: 'GEORGETOWN MANNY\'S'
+   },
+   {
+    brand: 'Georgetown Brewing Company',
+    type: 'pilsner',
+    name: 'GEORGETOWN ROGER’S'
+   },
+
+   {
+    brand: 'Georgetown Brewing Company',
+    type: 'IPA',
+    name: 'GEORGETOWN LUCILLE',
+    
+  },
+  {
+    brand: 'Boneyard Beer',
+    type: 'pale ale',
+    name: 'BONEYARD BONE-A-FIDE',
+
+  },
+  {
+    brand: 'Rainier',
+    type: 'Lager',
+    name: 'RAINIER'
+
+  },
+  {
+    brand: 'The Pike Brewing Company',
+    type: 'IPA',
+    name: 'PIKE IPA'
+
+   },
+   {
+    brand: 'The Pike Brewing Company',
+    type: 'Ale',
+    name: 'PIKE HIVE FIVE HOPPED HONEY'
+
+  },
+  {
+    brand: 'Fremont Brewing Company',
+    type: 'Ale',
+    name: 'FREMONT SUMMER ALE'
+
+   },
+   {
+    brand: 'Fremont Brewing Company',
+    type: 'IPA',
+    name: 'FREMONT IPA'
+
+   },
+   {
+    brand: 'RedHook',
+    type: 'ESB',
+    name: 'REDHOOK ESB'
+
+  },
+  {
+    brand: 'Mac & Jacks',
+    type: 'ale',
+    name: 'MAC & JACK’S AFRICAN AMBER'
+
+  },
+  {
+    brand: 'Mac & Jacks',
+    type: 'porter',
+    name: 'MAC & JACK’S BLACKCAT'
+
+  },
+  {
+    brand: 'Alaskan Brewing Company',
+    type: 'ale',
+    name: 'ALASKAN AMBER'
+   },
+   {
+    brand: 'Alaskan Brewing Company',
+    type: 'pale ale',
+    name: 'ALASKAN FREERIDE APA'
+  },
+  {
+    brand: 'Georgetown Brewery',
+    type: 'pale ale',
+    name: 'GEORGETOWN MANNY\'S'
+   },
+   {
+    brand: 'Georgetown Brewery',
+    type: 'pilsner',
+    name: 'GEORGETOWN ROGER’S'
+   }
+  ]
 
 function KegList(){
 
