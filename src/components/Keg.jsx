@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-function Ticket(props){
+function Keg(props){
   return (
     <div>
       <style jsx>{`
@@ -19,10 +19,10 @@ function Ticket(props){
   )
 }
 
-Ticket.propTypes = {
+Keg.propTypes = {
   names: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   issue: PropTypes.string
 }
 
-export default Ticket
+export default Keg
