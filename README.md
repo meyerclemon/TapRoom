@@ -1,6 +1,6 @@
 # React Tap Room
 
-#### By **Maya Frame** 6/7/2019
+#### By **Maya Frame** 7/6/2019
 
 ## Description
 * As a patron, I want to see a list/menu of all available kegs. For each keg, I need to see its name, brand, price.
