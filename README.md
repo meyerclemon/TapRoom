@@ -31,8 +31,6 @@
 3. Navigate to localhost:8080 to see application
 
 ## Built With
-
-* Windows 10.1
 * Visual Studio Code (Text Editor)
 * Node.js v10.15.3
 * npm v6.4.1
