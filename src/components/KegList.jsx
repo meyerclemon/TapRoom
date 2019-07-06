@@ -10,16 +10,17 @@ function KegList(){
     columns={columns}
     rowGetter={i => rows[i]}
     rowsCount={30}
-    minHeight={1200}/>)
+    minHeight={1000}/>)
 }
 
+
 const columns = [
-  { key: 'brewery', name: 'Brewery', editable: true },
-  { key: 'name', name: 'Name', editable: true },
-  { key: 'pint', name: '$ Pint (16oz)' , editable: true},
-  { key: 'growler', name: '$ Growler (64oz)' , editable: true},
-  { key: 'origin', name: 'Origin', editable: true},
-  { key: 'abv', name: 'Alcohol By Volume' , editable: true}
+  { key: 'brewery', name: 'Brewery', resizable: true, sortable:true, sortDescendingFirst: true},
+  { key: 'name', name: 'Name', resizable: true, sortable:true, sortDescendingFirst: true },
+  { key: 'pint', name: '$Pint (16oz)' , resizable: true, width:120, sortable:true, sortDescendingFirst: true},
+  { key: 'growler', name: '$Growler (64oz)' , resizable: true, width:120, sortable:true, sortDescendingFirst: true},
+  { key: 'origin', name: 'Origin', resizable: true, width:120, sortable:true, sortDescendingFirst: true},
+  { key: 'abv', name: 'ABV' , resizable: true, width:120, sortable:true, sortDescendingFirst: true}
 ]
 
 const rows = [
@@ -116,6 +117,7 @@ const rows = [
     name: 'Last Beer on the Left IPA',
     pint: '5.5',
     growler: '17',
+    origin: 'WA',
     abv: '6.0'
   },
   {
