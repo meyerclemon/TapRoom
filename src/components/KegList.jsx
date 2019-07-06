@@ -1,13 +1,31 @@
 import React from 'react'
-import Keg from './Keg'
+import ReactDataGrid from 'react-data-grid'
 export default KegList
 
 
 
-var masterKegList = [
+function KegList(){
+
+  return (<ReactDataGrid
+    columns={columns}
+    rowGetter={i => rows[i]}
+    rowsCount={30}
+    minHeight={1200}/>)
+}
+
+const columns = [
+  { key: 'brewery', name: 'Brewery', editable: true },
+  { key: 'name', name: 'Name', editable: true },
+  { key: 'pint', name: '$ Pint (16oz)' , editable: true},
+  { key: 'growler', name: '$ Growler (64oz)' , editable: true},
+  { key: 'origin', name: 'Origin', editable: true},
+  { key: 'abv', name: 'Alcohol By Volume' , editable: true}
+]
+
+const rows = [
   {
     brewery: 'Left Hand',
-    name: 'Milk Stout (Nitro)',
+    name: 'Milk Stout',
     pint: '9',
     growler: 'N/A',
     origin: 'CO',
@@ -15,7 +33,7 @@ var masterKegList = [
   },
   {
     brewery: 'Modern Times',
-    name: 'Black House w/ Coconut/Cocoa (Nitro)',
+    name: 'Black House w/ Coconut/Cocoa ',
     pint: '6.5',
     growler: 'N/A',
     origin: 'CA',
@@ -190,7 +208,7 @@ var masterKegList = [
   },
   {
     brewery: 'Founders',
-    name: 'Blushing Monk Raspberry Belgian',
+    name: 'Blushing Monk Raspberry Belg.',
     pint: '5.5',
     growler: '33',
     origin: 'MI',
@@ -301,28 +319,3 @@ var masterKegList = [
     abv: '6.0'
   }
 ]
-
-function KegList(){
-
-  return (
-    <div>
-      <style jsx>{`
-                h3{
-                  font-family: sans-serif;
-                }
-          `}</style>
-      <h3>Brewery | Name | Pint | Growler | Origin | Alcohol By Volume</h3>
-                
-      <hr/>
-      {masterKegList.map((keg, index) =>
-        <Keg brewery={keg.brewery}
-          name={keg.name}
-          pint={keg.pint}
-          growler={keg.growler}
-          origin={keg.origin}
-          abv={keg.abv}
-          key={index}/>
-      )}
-      
-    </div>
-  )}

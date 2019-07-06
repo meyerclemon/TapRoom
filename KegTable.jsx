@@ -9,6 +9,19 @@ import Paper from '@material-ui/core/Paper'
 import Keg from './Keg'
 export default KegList
 
+{masterKegList.map((keg, index) =>
+  <Keg brewery={keg.brewery}
+    name={keg.name}
+    pint={keg.pint}
+    growler={keg.growler}
+    origin={keg.origin}
+    abv={keg.abv}
+    key={index}/>
+)}
+
+
+
+
 var useStyles = makeStyles(theme => ({
   root: {
     width: '100%',
