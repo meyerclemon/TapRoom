@@ -44,14 +44,9 @@
 
 ## Contact
 
-[mayacframe](mailto:mayacframe@gmail.com)
-
+[Maya Frame](mailto:mayacframe@gmail.com)
 If you have any feedback or concerns, please contact any of the contributors.
 
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2019 Maya Frame. All Rights Reserved.
-```
-MIT License
-
-Copyright (c) 2019 Maya Frame
