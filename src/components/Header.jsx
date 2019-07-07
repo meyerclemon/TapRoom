@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import tapsRow from '../assets/images/tapsRow.jpg'
 
+
 function Header(){
   return (
 
@@ -11,6 +12,7 @@ function Header(){
                   background-color: goldenrod;
                   text-align: center;
                   font-family: sans-serif;
+                  background-image: linear-gradient(to top, 0.25);
                 }
                 
               `}</style>
