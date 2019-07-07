@@ -16,7 +16,7 @@ function Header(){
               `}</style>
       <img src={tapsRow}/>
       <h1>Le Bartender</h1>
-      <Link to="/">Keg List</Link> | <Link to="/newkeg">New Keg</Link>
+      <Link to="/">Home</Link> | <Link to="/newkeg">New Keg</Link>
       <hr/>
     </div>
   )

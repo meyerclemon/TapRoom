@@ -3,6 +3,14 @@ import React from 'react'
 function NewKegForm(){
   return (
     <div>
+      <style jsx>{`
+                div {
+                  
+                  text-align: center;
+                  font-family: sans-serif;
+                }
+                
+              `}</style>
       <form>
         <input
           type='text'
