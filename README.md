@@ -11,7 +11,7 @@
 * As a patron, you are able to use the alcohol content property to display stronger beers differently than weaker beers.
 
 ## Diagram
-![](src/assets/images/TapRoomDiagram.png?raw=true)
+![Component diagram](/src/assets/images/TapRoomDiagram.png)
 
 ## Setup and Use
 
