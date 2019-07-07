@@ -1,4 +1,5 @@
 import React from 'react'
+
 import ReactDataGrid from 'react-data-grid'
 export default KegList
 
@@ -15,12 +16,12 @@ function KegList(){
 
 
 const columns = [
-  { key: 'brewery', name: 'Brewery', resizable: true, sortable:true, sortDescendingFirst: true},
-  { key: 'name', name: 'Name', resizable: true, sortable:true, sortDescendingFirst: true },
-  { key: 'pint', name: '$Pint (16oz)' , resizable: true, width:120, sortable:true, sortDescendingFirst: true},
-  { key: 'growler', name: '$Growler (64oz)' , resizable: true, width:120, sortable:true, sortDescendingFirst: true},
-  { key: 'origin', name: 'Origin', resizable: true, width:120, sortable:true, sortDescendingFirst: true},
-  { key: 'abv', name: 'ABV' , resizable: true, width:120, sortable:true, sortDescendingFirst: true}
+  { key: 'brewery', name: 'Brewery', sortable:true, sortDescendingFirst: true},
+  { key: 'name', name: 'Name', sortable:true, sortDescendingFirst: true },
+  { key: 'pint', name: '$Pint (16oz)', width:120, sortable:true, sortDescendingFirst: true},
+  { key: 'growler', name: '$Growler (64oz)', width:120, sortable:true, sortDescendingFirst: true},
+  { key: 'origin', name: 'Origin', width:120, sortable:true, sortDescendingFirst: true},
+  { key: 'abv', name: 'ABV', width:120, sortable:true, sortDescendingFirst: true}
 ]
 
 const rows = [

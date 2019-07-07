@@ -3,8 +3,12 @@
 #### By **Maya Frame** 7/6/2019
 
 ## Description
-* As a patron, I want to see a list/menu of all available kegs. For each keg, I need to see its name, brand, price.
-* As a patron, I want to have kegs prices to be color-coded for easy readability. Perhaps based on their price (greater or less than $5 per pint, perhaps) or the particular style of beer or kombucha.
+* As a patron, you are able to see a list/menu of all available kegs. For each keg, you can see its name, brand, price and alcoholContent.
+* As an employee, you are able to fill out a form when you tap a new keg to add it to the list.
+* As an employee, you are able to edit a keg's properties after entering them just in case you make a mistake.
+* As an employee, you are able to click a button next to a keg whenever you sell a pint of it. This should decrease the number of pints left by 1.
+* As an employee, you are able to see kegs with less than 10 pints left.
+* As a patron, you are able to use the alcohol content property to display stronger beers differently than weaker beers.
 
 
 ## Setup and Use

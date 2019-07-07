@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import tapsRow from '../assets/images/tapsRow.jpg'
 
 function Header(){
   return (
@@ -8,11 +10,13 @@ function Header(){
                 div {
                   background-color: goldenrod;
                   text-align: center;
-                  font-family: cursive;
+                  font-family: sans-serif;
                 }
-              `}</style>
-      <h1>Le Bartender</h1>
                 
+              `}</style>
+      <img src={tapsRow}/>
+      <h1>Le Bartender</h1>
+      <Link to="/">Keg List</Link> | <Link to="/newkeg">New Keg</Link>
       <hr/>
     </div>
   )
