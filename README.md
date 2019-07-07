@@ -10,6 +10,8 @@
 * As an employee, you are able to see kegs with less than 10 pints left.
 * As a patron, you are able to use the alcohol content property to display stronger beers differently than weaker beers.
 
+## Diagram
+![](src/assets/images/TapRoomDiagram.png?raw=true)
 
 ## Setup and Use
 
