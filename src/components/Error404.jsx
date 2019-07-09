@@ -20,8 +20,8 @@ function Error404(){
                   color: red;
                 }
               `}</style>
-      <h1>ERROR 404</h1>
-      <h2>The page you are looking for does not exist!</h2>
+      <h1>ERROR404</h1>
+      <h2>The page you are looking for does not seem to exist!</h2>
       <h3>Would you like to return <Link to="/">home</Link> instead?</h3>
     </div>
   )

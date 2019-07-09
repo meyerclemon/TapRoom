@@ -1,17 +1,28 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-function NewKegForm(){
+function NewKegForm(props){
+  let _brewery = null
+  let _name = null
+  let _pint = null
+  let _growler = null
+  let _origin = null
+  let _abv = null
+
+  function handleNewKegFormSubmission(event) {
+    event.preventDefault()
+    props.onNewKegCreation({brewery: _brewery.value, name: _name.value, pint: _pint.value, growler: _growler.value, origin: _origin.value, abv: _abv.value})
+
+    _brewery.value = ''
+    _name.value = ''
+    _pint.value = ''
+    _growler.value = ''
+    _origin.value = ''
+    _abv.value = ''
+  }
   return (
     <div>
-      <style jsx>{`
-                div {
-                  
-                  text-align: center;
-                  font-family: sans-serif;
-                }
-                
-              `}</style>
-      <form>
+      <form onSubmit={handleNewKegFormSubmission}>
         <input
           type='text'
           id='brewery'
@@ -41,5 +52,10 @@ function NewKegForm(){
     </div>
   )
 }
+
+NewKegForm.propTypes = {
+  onNewKegCreation: PropTypes.func
+}
+
 
 export default NewKegForm

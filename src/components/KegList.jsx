@@ -1,5 +1,4 @@
 import React from 'react'
-
 import ReactDataGrid from 'react-data-grid'
 export default KegList
 
@@ -12,8 +11,8 @@ function KegList(){
     rowGetter={i => rows[i]}
     rowsCount={30}
     minHeight={1000}/>)
+  
 }
-
 
 const columns = [
   { key: 'brewery', name: 'Brewery', sortable:true, sortDescendingFirst: true},
