@@ -1,13 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-
-function Keg(props){
+function Keg(props) {
   return (
     <div>
-      
-      <h4>{props.brewery} | {props.name } |<em> ${props.pint} / {props.growler} </em> | {props.abv}</h4>
-      <hr/>
+      <h4>
+        {props.brewery} | {props.name} |
+        <em>
+          {' '}
+          ${props.pint} / {props.growler}{' '}
+        </em>{' '}
+        | {props.abv}
+      </h4>
+      <hr />
     </div>
   )
 }

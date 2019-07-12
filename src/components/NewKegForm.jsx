@@ -30,16 +30,59 @@ function NewKegForm(props) {
   return (
     <div>
       <form onSubmit={handleNewKegFormSubmission}>
-        <input type="text" id="brewery" placeholder="Brewery name" />
-        <input type="text" id="name" placeholder="Item name" />
-        <input type="text" id="pint" placeholder="Price per pint" />
-        <input type="text" id="growler" placeholder="Price per growler" />
+        <input
+          type="text"
+          id="brewery"
+          placeholder="Brewery name"
+          ref={input => {
+            _brewery = input
+          }}
+        />
+        <input
+          type="text"
+          id="name"
+          placeholder="Item name"
+          ref={input => {
+            _name = input
+          }}
+        />
+        />
+        <input
+          type="text"
+          id="pint"
+          placeholder="Price per pint"
+          ref={input => {
+            _pint = input
+          }}
+        />
+        />
+        <input
+          type="text"
+          id="growler"
+          placeholder="Price per growler"
+          ref={input => {
+            _growler = input
+          }}
+        />
+        />
         <input
           type="text"
           id="origin"
           placeholder="Place of origin (initials)"
+          ref={input => {
+            _origin = input
+          }}
         />
-        <input type="text" id="abv" placeholder="Alcohol By Volume" />
+        />
+        <input
+          type="text"
+          id="abv"
+          placeholder="Alcohol By Volume"
+          ref={input => {
+            _abv = input
+          }}
+        />
+        />
         <button type="submit">Add</button>
       </form>
     </div>
