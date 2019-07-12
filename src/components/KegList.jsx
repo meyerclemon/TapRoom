@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDataGrid from "react-data-grid";
-import rows from "./Rows";
+import rows from "./KegData";
 export default KegList;
 
 function KegList() {
