@@ -5,10 +5,7 @@
 ## Description
 * As a patron, you are able to see a list/menu of all available kegs. For each keg, you can see its name, brand, price and alcoholContent.
 * As an employee, you are able to fill out a form when you tap a new keg to add it to the list.
-* As an employee, you are able to edit a keg's properties after entering them just in case you make a mistake.
 * As an employee, you are able to click a button next to a keg whenever you sell a pint of it. This should decrease the number of pints left by 1.
-* As an employee, you are able to see kegs with less than 10 pints left.
-* As a patron, you are able to use the alcohol content property to display stronger beers differently than weaker beers.
 
 ## Diagram
 ![Component diagram](/src/assets/images/TapRoomDiagram.png)
